@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Heading } from "@chakra-ui/react";
+import AllRoutes from "./routes/AllRoutes";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Heading as="h1">Home page</Heading>
+    <div className="App" style={{ position: "relative" }}>
+      <Navbar />
+      <AllRoutes />
     </div>
   );
 }
